@@ -1,13 +1,20 @@
-flask_blog/
-├── app/
+django_blog/
+├── blog/
 │   ├── __init__.py
-│   ├── routes.py
+│   ├── admin.py
+│   ├── apps.py
 │   ├── models.py
+│   ├── views.py
+│   ├── urls.py
 │   ├── templates/
-│   │   ├── base.html
-│   │   ├── home.html
-│   │   ├── post.html
-├── venv/
-├── config.py
-├── run.py
+│   │   ├── blog/
+│   │   │   ├── base.html
+│   │   │   ├── home.html
+│   │   │   ├── post_detail.html
+├── django_blog/
+│   ├── __init__.py
+│   ├── settings.py
+│   ├── urls.py
+│   ├── wsgi.py
+├── manage.py
 └── requirements.txt
